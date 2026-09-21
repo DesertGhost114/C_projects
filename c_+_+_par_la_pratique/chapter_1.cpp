@@ -10,18 +10,18 @@ multi line comment
 #include <iostream>
 using namespace std;
 
-int i;
 
-double x(3.14);
+void intro() {
+ int i;
 
-double j(7.6);
+ double p(3.14);
 
-int k(6);
+ double j(7.6);
 
-int l = k+3;
+ int k(6);
 
+ int l = k+3;
 
-int main() {
  double temperature;
  double temperature_user;
 
@@ -39,4 +39,34 @@ int main() {
   cout << "You thought it was "<< temperature_user << " degrees (°C)." << endl;
  }
 
+}
+
+void exo_1() {
+ // Exo 1
+ int age;
+
+ cout << "Please enter your age :" << endl;
+ cin >> age;
+ int birth_year = 2026 - age;
+ cout << "You were born in "<< birth_year << " ." << endl;
+
+}
+
+void exo_2() {
+ // Exo 2
+ int x,y;
+ double a,b,c, d;
+ x=2;
+ y=4;
+ a = x + y;
+ b = x - y;
+ c = x * y;
+ d = x / y;
+ cout << "a: " << a << "b: " << b << "c: " << c << "d: " << d << endl;
+}
+
+int main() {
+ intro();
+ exo_1();
+ exo_2();
 }
