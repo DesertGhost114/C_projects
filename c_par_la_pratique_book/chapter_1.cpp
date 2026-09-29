@@ -54,7 +54,8 @@ void exo_1() {
 
 void exo_2() {
  // Exo 2
- int x,y;
+ int x;
+ double y;
  double a,b,c, d;
  x=2;
  y=4;
@@ -63,6 +64,8 @@ void exo_2() {
  c = x * y;
  d = x / y;
  cout << "a: " << a << "b: " << b << "c: " << c << "d: " << d << endl;
+ cout << "If an value is divided by a integer, the result is also an integer" << endl;
+ cout << "If an value is divided by a double, the result is also an double" << endl;
 }
 
 int main() {
