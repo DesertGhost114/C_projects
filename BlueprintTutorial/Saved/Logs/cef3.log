@@ -1,0 +1,36 @@
+[33400:22048:1010/191205.032:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[33400:31068:1010/191208.526:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[33400:22048:1010/191209.618:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[33400:31468:1010/191219.279:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[29112:9340:1010/191236.278:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-C1B0FCFB6CA7085B9305F1AFEE9775EF will be ignored
+[33400:22048:1010/195639.776:ERROR:device_event_log_impl.cc(196)] [19:56:39.525] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[33400:22048:1010/195814.449:WARNING:page_discarding_helper.cc(138)] Discarding multiple pages with target (kb): 0
+[33400:22048:1010/195814.450:WARNING:page_discarding_helper.cc(138)] Discarding multiple pages with target (kb): 0
+[33400:22048:1010/195819.448:WARNING:page_discarding_helper.cc(138)] Discarding multiple pages with target (kb): 0
+[33400:22048:1011/004509.280:ERROR:gpu_process_host.cc(1007)] GPU process exited unexpectedly: exit_code=1073807364
+[33400:22048:1011/004509.281:WARNING:gpu_process_host.cc(1441)] The GPU process has crashed 1 time(s)
+[33400:22048:1011/004509.293:WARNING:sad_tab.cc(255)] Tab Killed: https://editor.unrealengine.com/
+[33400:22048:1011/004509.946:ERROR:gpu_process_host.cc(1007)] GPU process exited unexpectedly: exit_code=-1073741205
+[33400:22048:1011/004509.946:WARNING:gpu_process_host.cc(1441)] The GPU process has crashed 2 time(s)
+[33400:22048:1011/004509.948:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
+[33400:22048:1011/004510.281:ERROR:gpu_process_host.cc(1007)] GPU process exited unexpectedly: exit_code=-1073741205
+[33400:22048:1011/004510.281:WARNING:gpu_process_host.cc(1441)] The GPU process has crashed 3 time(s)
+[33400:22048:1011/004510.283:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
+[33400:22048:1011/004510.613:ERROR:gpu_process_host.cc(1007)] GPU process exited unexpectedly: exit_code=-1073741205
+[33400:22048:1011/004510.613:WARNING:gpu_process_host.cc(1441)] The GPU process has crashed 4 time(s)
+[33400:22048:1011/004510.614:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
+[33400:22048:1011/004510.947:ERROR:gpu_process_host.cc(1007)] GPU process exited unexpectedly: exit_code=-1073741205
+[33400:22048:1011/004510.947:WARNING:gpu_process_host.cc(1441)] The GPU process has crashed 5 time(s)
+[33400:22048:1011/004510.948:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
+[33400:22048:1011/004511.279:ERROR:gpu_process_host.cc(1007)] GPU process exited unexpectedly: exit_code=-1073741205
+[33400:22048:1011/004511.279:WARNING:gpu_process_host.cc(1441)] The GPU process has crashed 6 time(s)
+[33400:22048:1011/004511.280:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
+[33400:22048:1011/004511.612:ERROR:gpu_process_host.cc(1007)] GPU process exited unexpectedly: exit_code=-1073741205
+[33400:22048:1011/004511.612:WARNING:gpu_process_host.cc(1441)] The GPU process has crashed 7 time(s)
+[33400:22048:1011/004511.613:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
+[33400:22048:1011/004511.945:ERROR:gpu_process_host.cc(1007)] GPU process exited unexpectedly: exit_code=-1073741205
+[33400:22048:1011/004511.945:WARNING:gpu_process_host.cc(1441)] The GPU process has crashed 8 time(s)
+[33400:22048:1011/004511.947:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
+[33400:22048:1011/004512.279:ERROR:gpu_process_host.cc(1007)] GPU process exited unexpectedly: exit_code=-1073741205
+[33400:22048:1011/004512.279:WARNING:gpu_process_host.cc(1441)] The GPU process has crashed 9 time(s)
+[33400:22048:1011/004512.279:FATAL:gpu_data_manager_impl_private.cc(436)] GPU process isn't usable. Goodbye.

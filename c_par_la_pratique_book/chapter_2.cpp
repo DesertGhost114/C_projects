@@ -57,11 +57,20 @@ void exo_3()
 
 void exo_4()
 {
-       
+    double user_input;
+    cout << "Enter a real value: ";
+    cin >> user_input;
+    if (user_input > 0 and user_input <= 1 or user_input >= 2 and user_input < 3 or user_input >= -10 and user_input <= -2)
+    {
+        cout << user_input << " is included in I" << endl;
+    } else
+    {
+        cout << user_input << " is not included in I" << endl;
+    }
 }
 
 int main() {
     // intro();
-    exo_3();
+    // exo_3();
     exo_4();
 }
