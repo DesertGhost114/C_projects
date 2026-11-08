@@ -69,6 +69,47 @@ void exo_4()
     }
 }
 
+void exo_5()
+{
+    double x;
+    cout << "Enter a real value: ";
+    cin >> x;
+
+    // Expression 1
+    if (x == 0)
+    {
+        cout << "Expression 1 is not defined for the value " << x << endl;
+    } else
+    {
+        double result_1 = x / (1 - exp(x));
+        cout << "The first expression value is " << result_1 << endl;
+    }
+
+    // Expression 2
+    if (x <= 0 or x == 1)
+    {
+        cout << "Expression 2 is not defined for the value " << x << endl;
+    }
+    else
+    {
+        double result_2 = x * log(x) * exp(2/ (x-1));
+        cout << "The first expression value is " << result_2 << endl;
+
+    }
+
+    // Expression 3
+    if (x < 4 or x == 2)
+    {
+        cout << "Expression 3 is not defined for the value " << x << endl;
+    }
+    else
+    {
+        double result_3 = (-x - sqrt(pow(x, 2) - 8 * x)) / (2 - x) ;
+        cout << "The first expression value is " << result_3 << endl;
+
+    }
+}
+
 int main() {
     // intro();
     // exo_3();
