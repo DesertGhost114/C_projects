@@ -31,8 +31,8 @@ void intro()
         cout << "There is no real solutions" << endl;
     } else if (delta == 0)
     {
-        cout << "There is one real solution : " << endl;
         double s = - b / (2.0*a);
+        cout << "There is one real solution : " << s << endl;
     } else
     {
         cout << "There is 2 real solutions : " << endl;
@@ -60,11 +60,10 @@ void exo_4()
     double user_input;
     cout << "Enter a real value: ";
     cin >> user_input;
-    if (user_input > 0 and user_input <= 1 or user_input >= 2 and user_input < 3 or user_input >= -10 and user_input <= -2)
-    {
+    if ((user_input > 0 && user_input <= 1) || (user_input >= 2 && user_input < 3) || (user_input >= -10 && user_input <= -2)) {
         cout << user_input << " is included in I" << endl;
-    } else
-    {
+    }
+    else    {
         cout << user_input << " is not included in I" << endl;
     }
 }
@@ -86,7 +85,7 @@ void exo_5()
     }
 
     // Expression 2
-    if (x <= 0 or x == 1)
+    if (x <= 0 || x == 1)
     {
         cout << "Expression 2 is not defined for the value " << x << endl;
     }
@@ -99,7 +98,7 @@ void exo_5()
     }
 
     // Expression 3
-    if (x < 4 or x == 2)
+    if (x < 4 || x == 2)
     {
         cout << "Expression 3 is not defined for the value " << x << endl;
     }
@@ -112,7 +111,8 @@ void exo_5()
 }
 
 int main() {
-    // intro();
+    intro();
     // exo_3();
-    exo_4();
+    // exo_4();
+    // exo_5();
 }
