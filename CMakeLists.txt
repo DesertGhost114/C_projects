@@ -8,5 +8,8 @@ add_executable(C_projects main.cpp
         c_+_+_par_la_pratique/chapter_1.cpp
         c_+_+_par_la_pratique/chapter_2.cpp
         c_par_la_pratique_book/chapter_3.cpp
+        Utils/utile_fonctions.cpp
+        Utils/utile_fonctions.h
+        Utils/utils.cpp
 )
 

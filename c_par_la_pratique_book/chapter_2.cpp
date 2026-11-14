@@ -4,10 +4,15 @@
 
 #include <cmath>
 #include <iostream>
+#include <string>
+#include <sstream>
+
 using namespace std;
 
 void intro()
 {
+    // todo : convert this to functions and move it to utils.cpp
+    //  a, b and c become inputs
     double a(1.0);
     double b(0.0);
     double c(0.0);
@@ -23,18 +28,23 @@ void intro()
     cout << "Enter a value for c : " << endl;
     cin >> c;
 
-    // double delta = b * b - 4.0 * a * c;
-    double delta(b * b - 4.0 * a * c);
+    double delta = b * b - 4.0 * a * c;
+    // double delta(b * b - 4.0 * a * c);
 
-    if (delta < 0)
-    {
-        cout << "There is no real solutions" << endl;
-    } else if (delta == 0)
-    {
+    if (delta < 0)    {
+        cout << "There is no real solutions, but 2 compexe ones : " << endl;
+        double real = - b / (2.0 * a);
+        double complexe = sqrt(abs(delta)) / (2.0 * a);
+        std::string c_1 = std::to_string(real) + " + i * " + std::to_string(complexe);
+        std::string c_2;
+        c_2 = std::to_string(real) + " - i * " + std::to_string(complexe);
+        cout << c_1 << " and " << c_2 << endl;
+    }
+    else if (delta == 0)    {
         double s = - b / (2.0*a);
         cout << "There is one real solution : " << s << endl;
-    } else
-    {
+
+    } else    {
         cout << "There is 2 real solutions : " << endl;
         double s_1 = (- b + sqrt(delta)) / (2.0*a);
         double s_2 = (- b - sqrt(delta)) / (2.0*a);
@@ -93,26 +103,36 @@ void exo_5()
     else
     {
         double result_2 = x * log(x) * exp(2/ (x-1));
-        cout << "The first expression value is " << result_2 << endl;
+        cout << "The second expression value is " << result_2 << endl;
 
     }
 
     // Expression 3
-    if (x < 4 || x == 2)
+    if (x < 8 || x == 2)
     {
         cout << "Expression 3 is not defined for the value " << x << endl;
     }
     else
     {
         double result_3 = (-x - sqrt(pow(x, 2) - 8 * x)) / (2 - x) ;
-        cout << "The first expression value is " << result_3 << endl;
+        cout << "The third expression value is " << result_3 << endl;
+    }
 
+    // Expression 4
+    if (x < 1 || x == 0)
+    {
+        cout << "Expression 4 is not defined for the value " << x << endl;
+    }
+    else
+    {
+        double result_3 = sqrt((sin(x)- x /20) * log(sqrt(x*x-(1/x))));
+        cout << "The forth expression value is " << result_3 << endl;
     }
 }
 
 int main() {
-    intro();
+    // intro();
     // exo_3();
     // exo_4();
-    // exo_5();
+    exo_5();
 }
