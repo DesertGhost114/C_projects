@@ -90,6 +90,7 @@ void exo_5()
     {
         cout << "Expression 2 is not defined for the value " << x << endl;
     }
+    
     else
     {
         double result_2 = x * log(x) * exp(2/ (x-1));
