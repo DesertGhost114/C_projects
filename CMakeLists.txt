@@ -11,5 +11,9 @@ add_executable(C_projects main.cpp
         Utils/utile_fonctions.cpp
         Utils/utile_fonctions.h
         Utils/utils.cpp
+        learncpp.com/main.cpp
+        learncpp.com/main.h
+        learncpp.com/compiler_version.cpp
+        learncpp.com/compiler_version.h
 )
 
